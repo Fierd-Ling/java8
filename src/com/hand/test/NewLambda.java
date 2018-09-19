@@ -6,6 +6,7 @@ import org.junit.Test;
 import java.util.Comparator;
 import java.util.function.BiPredicate;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Supplier;
 
 /**
@@ -45,6 +46,16 @@ public class NewLambda {
     public void test3(){
         BiPredicate<String,String> biPredicate=String::equals;
         System.out.println(biPredicate.test("ertyu","ertyui"));
+    }
 
+    @Test
+    public void test4(){
+        //
+        Supplier<Student> studentSupplier=Student::new;
+        System.out.print(studentSupplier.get().getName());
+
+
+        Function<Integer,Student> function=(x)->new Student();
+        System.out.println(function.apply(10));
     }
 }
