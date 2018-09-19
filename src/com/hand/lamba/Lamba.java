@@ -14,10 +14,10 @@ import java.util.function.Consumer;
  */
 public class Lamba {
     static List<Student> studentList = Arrays.asList(
-            new Student("王五",10,40),
+           /* new Student("王五",10,40),
             new Student("刘四",67,600),
             new Student("孙十",23,87),
-            new Student("张三",20,700)
+            new Student("张三",20,700)*/
     );
 
     // 筛选策略

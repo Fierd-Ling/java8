@@ -17,14 +17,14 @@ import java.util.Objects;
 public class TestLambda {
     // 对数据排序
    static List<Student> students= Arrays.asList(
-            new Student("张三",10,10),
+           /* new Student("张三",10,10),
             new Student("李四",10,39),
             new Student("王五",45,103),
             new Student("刘四",45,100),
             new Student("张飞",104,2),
             new Student("诸葛亮",48,10000),
             new Student("曹操",48,400),
-            new Student("路人甲",2,45)
+            new Student("路人甲",2,45)*/
     );
 
     public static void main(String[] args) {
