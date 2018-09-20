@@ -141,6 +141,30 @@ public class TestStream {
 
     }
 
+    // 排序
+    @Test
+    public void px(){
+        // 自然排序 按照字典排序
+        list.forEach(System.out::println);
+        System.out.println("--------------------------------");
+        list.stream().sorted().forEach(System.out::println);
+        // 自定义排序
+        studentList.forEach(System.out::println);
+        System.out.println("--------------------------------");
+        studentList.stream().sorted((s1,s2)->{
+            // sorted 排序操作
+            if(s1.getAge().equals(s2.getAge())){
+                //出现年龄 相等就按照找分数
+                return s1.getAge().compareTo(s2.getGrade());
+            }else {
+                //首先按照年龄排序
+                return s1.getAge().compareTo(s2.getAge());
+            }
+        }).forEach(System.out::println);
+
+    }
+
+
 
 
 }
