@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9b63e5-6ab3-4a39-adc0-95db1d3016f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hand/stream/TestStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hand/lamba/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hand/lamba/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hand/stream/TestStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hand/stream/TestStream.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,22 +28,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="342" />
+          <entry key="java" value="1201" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="342" />
+          <entry key="JAVA" value="1201" />
         </counts>
       </usages-collector>
     </session>
@@ -56,10 +56,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hand/stream/TestStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+            <state relative-caret-position="455">
+              <caret line="139" column="37" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hand/lamba/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+              <folding>
+                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,7 +178,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537432245048" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537440668677" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -190,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestStream.testSkip">
+  <component name="RunManager" selected="JUnit.TestStream.testAddAll">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -253,43 +266,7 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="NewLambda.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hand.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hand.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hand.test.NewLambda" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewLambda.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hand.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hand.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hand.test.NewLambda" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStream.streamApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStream.testAddAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
@@ -299,7 +276,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hand.stream" />
       <option name="MAIN_CLASS_NAME" value="com.hand.stream.TestStream" />
-      <option name="METHOD_NAME" value="streamApi" />
+      <option name="METHOD_NAME" value="testAddAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -307,7 +284,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStream.testSkip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStream.testDistinct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
@@ -317,7 +294,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hand.stream" />
       <option name="MAIN_CLASS_NAME" value="com.hand.stream.TestStream" />
-      <option name="METHOD_NAME" value="testSkip" />
+      <option name="METHOD_NAME" value="testDistinct" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStream.testFlatMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hand.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hand.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.hand.stream.TestStream" />
+      <option name="METHOD_NAME" value="testFlatMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStream.testMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hand.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hand.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.hand.stream.TestStream" />
+      <option name="METHOD_NAME" value="testMap" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -403,19 +416,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.NewLambda.test3" />
-      <item itemvalue="JUnit.NewLambda.test4" />
-      <item itemvalue="JUnit.TestStream.streamApi" />
       <item itemvalue="JUnit.TestStream.testStream" />
-      <item itemvalue="JUnit.TestStream.testSkip" />
+      <item itemvalue="JUnit.TestStream.testDistinct" />
+      <item itemvalue="JUnit.TestStream.testMap" />
+      <item itemvalue="JUnit.TestStream.testFlatMap" />
+      <item itemvalue="JUnit.TestStream.testAddAll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestStream.testSkip" />
+        <item itemvalue="JUnit.TestStream.testAddAll" />
+        <item itemvalue="JUnit.TestStream.testFlatMap" />
+        <item itemvalue="JUnit.TestStream.testMap" />
+        <item itemvalue="JUnit.TestStream.testDistinct" />
         <item itemvalue="JUnit.TestStream.testStream" />
-        <item itemvalue="JUnit.TestStream.streamApi" />
-        <item itemvalue="JUnit.NewLambda.test4" />
-        <item itemvalue="JUnit.NewLambda.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -438,44 +451,44 @@
       <workItem from="1537345246497" duration="5974000" />
       <workItem from="1537406152725" duration="1790000" />
       <workItem from="1537429586255" duration="59000" />
-      <workItem from="1537431742999" duration="941000" />
+      <workItem from="1537431742999" duration="5625000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewLambda_test4 - 2018.09.19 at 20h 00m 08s.xml">
-      <configuration name="NewLambda.test4" configurationId="JUnit" />
+    <history-entry file="TestStream_testSkip - 2018.09.20 at 16h 38m 06s.xml">
+      <configuration name="TestStream.testSkip" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStream_streamApi - 2018.09.19 at 20h 50m 16s.xml">
-      <configuration name="TestStream.streamApi" configurationId="JUnit" />
+    <history-entry file="TestStream_testDistinct - 2018.09.20 at 16h 42m 12s.xml">
+      <configuration name="TestStream.testDistinct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStream_streamApi - 2018.09.19 at 20h 52m 35s.xml">
-      <configuration name="TestStream.streamApi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStream_streamApi - 2018.09.19 at 20h 55m 06s.xml">
-      <configuration name="TestStream.streamApi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStream_testStream - 2018.09.20 at 16h 27m 45s.xml">
+    <history-entry file="TestStream_testStream - 2018.09.20 at 16h 45m 18s.xml">
       <configuration name="TestStream.testStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStream_testStream - 2018.09.20 at 16h 29m 06s.xml">
-      <configuration name="TestStream.testStream" configurationId="JUnit" />
+    <history-entry file="TestStream_testDistinct - 2018.09.20 at 16h 45m 25s.xml">
+      <configuration name="TestStream.testDistinct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStream_testStream - 2018.09.20 at 16h 29m 28s.xml">
-      <configuration name="TestStream.testStream" configurationId="JUnit" />
+    <history-entry file="TestStream_testMap - 2018.09.20 at 16h 50m 27s.xml">
+      <configuration name="TestStream.testMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStream_testStream - 2018.09.20 at 16h 29m 43s.xml">
-      <configuration name="TestStream.testStream" configurationId="JUnit" />
+    <history-entry file="TestStream_testMap - 2018.09.20 at 16h 59m 41s.xml">
+      <configuration name="TestStream.testMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStream_testStream - 2018.09.20 at 16h 30m 22s.xml">
-      <configuration name="TestStream.testStream" configurationId="JUnit" />
+    <history-entry file="TestStream_testFlatMap - 2018.09.20 at 18h 36m 35s.xml">
+      <configuration name="TestStream.testFlatMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStream_testStream - 2018.09.20 at 16h 30m 39s.xml">
-      <configuration name="TestStream.testStream" configurationId="JUnit" />
+    <history-entry file="TestStream_testFlatMap - 2018.09.20 at 18h 46m 09s.xml">
+      <configuration name="TestStream.testFlatMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStream_testFlatMap - 2018.09.20 at 18h 47m 48s.xml">
+      <configuration name="TestStream.testFlatMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStream_testAddAll - 2018.09.20 at 18h 50m 03s.xml">
+      <configuration name="TestStream.testAddAll" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33681000" />
+    <option name="totallyTimeSpent" value="38365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1548" height="831" extended-state="0" />
@@ -492,7 +505,7 @@
       <window_info id="Nl-Palette" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.039940827" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.31656805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,7 +514,7 @@
       <window_info anchor="bottom" id="JRebel remote servers log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3295583" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295583" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" weight="0.03106509" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" weight="0.044378698" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -516,7 +529,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.847973" visible="true" weight="0.28175676" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.847973" weight="0.28175676" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -527,7 +540,7 @@
       <window_info id="Nl-Palette" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785638" weight="0.113250285" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.34615386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,7 +549,7 @@
       <window_info anchor="bottom" id="JRebel remote servers log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3295583" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295583" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" visible="true" weight="0.03106509" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" weight="0.044378698" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -556,6 +569,20 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/hand/stream/TestStream.java</url>
+          <line>105</line>
+          <properties class="com.hand.stream.TestStream" method="testFlatMap">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -594,13 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="20" column="6" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hand/lamba/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -653,10 +673,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hand/lamba/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding>
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hand/stream/TestStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+        <state relative-caret-position="455">
+          <caret line="139" column="37" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

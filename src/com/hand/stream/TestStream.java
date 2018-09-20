@@ -43,7 +43,15 @@ public class TestStream {
             new Student("王五",10,40),
             new Student("刘四",67,600),
             new Student("孙十",23,87),
-            new Student("张三",20,700)
+            new Student("张三",20,700),
+            new Student("刘四",67,600),
+            new Student("张三",20,700),
+            new Student("刘四",67,600),
+            new Student("刘四",67,600),
+            new Student("张三",20,700),
+            new Student("刘四",67,600),
+            new Student("刘四",67,600),
+            new Student("刘四",67,600)
     );
 
 
@@ -64,6 +72,73 @@ public class TestStream {
         studentList.stream().limit(2).forEach(System.out::println);
         System.out.println("..............取出后面两个........................");
         studentList.stream().skip(2).forEach(System.out::println);
+    }
+
+    @Test// 去重操作
+    public void testDistinct(){
+        // distinct 需要重写hashCode和equals
+        studentList.stream().distinct().forEach(System.out::println);
+    }
+
+    @Test
+    public void testMap(){
+        // 拿到所有的名字然后去重
+        studentList.stream().filter((e)->e.getAge()>20).map(Student::getName).distinct().forEach(System.out::println);
+    }
+
+
+    List<String> list= Arrays.asList(
+            "dddd",
+            "sss",
+            "xxx",
+            "defd",
+            "dsdds"
+    );
+
+    /**
+     * @Description:
+     * @param:
+     * @return:
+     * @auther: ZhongLingYun
+     * @date: 2018/9/20 18:36
+     */
+    @Test
+    public void testFlatMap(){
+
+        // 普通情况下map返回的是stream <T>
+        Stream<Stream<Character>> streamStream=list.stream().map(TestStream::getCharacter);
+        //streamStream.forEach((stream)->stream.forEach(System.out::println));
+        streamStream.forEach(System.out::println);
+
+        // flatMap 将流整合成一个流
+        list.stream().flatMap(TestStream::getCharacter).forEach(System.out::println);
+
+
+
+    }
+
+    public static Stream<Character> getCharacter(String str){
+        List<Character> list = new ArrayList<>();
+        for (Character character: str.toCharArray()) {
+            list.add(character);
+        }
+        return list.stream();
+
+    }
+
+    @Test
+    public void testAddAll(){
+        List lists= new ArrayList<>();
+        lists.add(list);
+        lists.add("qw");
+        lists.forEach(System.out::println);
+
+        // addAll
+        List d = new ArrayList();
+        d.addAll(list);
+        d.add("456789");
+        d.forEach(System.out::println);
+
     }
 
 

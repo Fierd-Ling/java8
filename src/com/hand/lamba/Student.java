@@ -1,5 +1,7 @@
 package com.hand.lamba;
 
+import java.util.Objects;
+
 /**
  * @author ZhongLingYun
  * @Title: Student
@@ -48,5 +50,24 @@ public class Student {
                 ", age=" + age +
                 ", grade=" + grade +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o){
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Student student = (Student) o;
+        return Objects.equals(name, student.name) &&
+                Objects.equals(age, student.age) &&
+                Objects.equals(grade, student.grade);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, grade);
     }
 }
