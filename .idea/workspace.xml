@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a9b63e5-6ab3-4a39-adc0-95db1d3016f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hand/lamba/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hand/lamba/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hand/stream/TestStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hand/stream/TestStream.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hand/stream/TestStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="139" column="37" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
+            <state relative-caret-position="25">
+              <caret line="146" selection-start-line="140" selection-end-line="146" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537440668677" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537443676371" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -451,14 +449,11 @@
       <workItem from="1537345246497" duration="5974000" />
       <workItem from="1537406152725" duration="1790000" />
       <workItem from="1537429586255" duration="59000" />
-      <workItem from="1537431742999" duration="5625000" />
+      <workItem from="1537431742999" duration="6862000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestStream_testSkip - 2018.09.20 at 16h 38m 06s.xml">
-      <configuration name="TestStream.testSkip" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestStream_testDistinct - 2018.09.20 at 16h 42m 12s.xml">
       <configuration name="TestStream.testDistinct" configurationId="JUnit" />
     </history-entry>
@@ -486,9 +481,12 @@
     <history-entry file="TestStream_testAddAll - 2018.09.20 at 18h 50m 03s.xml">
       <configuration name="TestStream.testAddAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestStream_testAddAll - 2018.09.20 at 18h 51m 10s.xml">
+      <configuration name="TestStream.testAddAll" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38365000" />
+    <option name="totallyTimeSpent" value="39602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1548" height="831" extended-state="0" />
@@ -505,7 +503,7 @@
       <window_info id="Nl-Palette" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.31656805" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785638" weight="0.7943787" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,7 +512,7 @@
       <window_info anchor="bottom" id="JRebel remote servers log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3295583" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295583" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" weight="0.044378698" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" visible="true" weight="0.74260354" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -686,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hand/stream/TestStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="139" column="37" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
+        <state relative-caret-position="25">
+          <caret line="146" selection-start-line="140" selection-end-line="146" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
