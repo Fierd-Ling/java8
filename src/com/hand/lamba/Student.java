@@ -10,13 +10,12 @@ public class Student {
     private String name;
     private Integer age;
     private Integer grade;
-/*
     public Student(String name, Integer age, Integer grade) {
         this.name = name;
         this.age = age;
         this.grade = grade;
     }
-    public Student(){}*/
+    public Student(){}
 
     public String getName() {
         return name;
