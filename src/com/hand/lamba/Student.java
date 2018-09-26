@@ -12,11 +12,17 @@ public class Student {
     private String name;
     private Integer age;
     private Integer grade;
-    public Student(String name, Integer age, Integer grade) {
-        this.name = name;
-        this.age = age;
-        this.grade = grade;
+    /**
+     * 枚举值
+     * 用于描述学生状态
+     */
+    public enum status{
+        hd,
+        cd,
+        yb;
     }
+
+
     public Student(){}
 
     public String getName() {
@@ -44,15 +50,6 @@ public class Student {
     }
 
     @Override
-    public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", grade=" + grade +
-                '}';
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o){
             return true;
@@ -69,5 +66,20 @@ public class Student {
     @Override
     public int hashCode() {
         return Objects.hash(name, age, grade);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", grade=" + grade +
+                '}';
+    }
+
+    public Student(String name, Integer age, Integer grade) {
+        this.name = name;
+        this.age = age;
+        this.grade = grade;
     }
 }

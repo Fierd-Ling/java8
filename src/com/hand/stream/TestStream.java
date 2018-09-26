@@ -161,10 +161,5 @@ public class TestStream {
                 return s1.getAge().compareTo(s2.getAge());
             }
         }).forEach(System.out::println);
-
     }
-
-
-
-
 }
