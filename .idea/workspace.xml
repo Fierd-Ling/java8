@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9b63e5-6ab3-4a39-adc0-95db1d3016f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hand/test/StreamApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hand/test/Reduce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hand/lamba/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hand/lamba/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hand/stream/TestStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hand/stream/TestStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java8/com/hand/test/StreamApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8/com/hand/test/StreamApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hand/test/StreamApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hand/test/StreamApi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,32 +21,33 @@
     <session id="530762532">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.46" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="29" />
+          <entry key="java" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2734" />
+          <entry key="java" value="5175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2734" />
+          <entry key="JAVA" value="5175" />
         </counts>
       </usages-collector>
     </session>
@@ -55,12 +56,12 @@
     <favorites_list name="java8" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hand/test/StreamApi.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hand/test/Reduce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+            <state relative-caret-position="418">
+              <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,28 +70,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hand/lamba/Lamba.java">
+        <entry file="jar://D:/Java/jdk/src.zip!/java/util/stream/Collectors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-875">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="20" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hand/test/TestLambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk/src.zip!/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220">
-              <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+            <state relative-caret-position="175">
+              <caret line="1489" column="42" selection-start-line="1489" selection-start-column="42" selection-end-line="1489" selection-end-column="42" />
+              <folding>
+                <element signature="e#18157#18158#0" expanded="true" />
+                <element signature="e#18222#18223#0" expanded="true" />
+                <element signature="e#33990#33991#0" expanded="true" />
+                <element signature="e#34045#34046#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/com/hand/stream/TestStream.java" />
         <option value="$PROJECT_DIR$/src/com/hand/lamba/Student.java" />
         <option value="$PROJECT_DIR$/src/com/hand/test/StreamApi.java" />
+        <option value="$PROJECT_DIR$/src/com/hand/test/Reduce.java" />
       </list>
     </option>
   </component>
@@ -170,20 +160,6 @@
               <item name="java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hand" type="462c0819:PsiDirectoryNode" />
-              <item name="lamba" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hand" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hand" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -196,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537934644944" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538012290584" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -221,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamApi.test3">
+  <component name="RunManager" selected="JUnit.Reduce.test7">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -284,7 +260,7 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="StreamApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Reduce.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
@@ -293,59 +269,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hand.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hand.test.StreamApi" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamApi.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hand.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hand.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hand.test.StreamApi" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamApi.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hand.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hand.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hand.test.StreamApi" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamApi.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hand.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hand.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hand.test.StreamApi" />
+      <option name="MAIN_CLASS_NAME" value="com.hand.test.Reduce" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -354,17 +278,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStream.px" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Reduce.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hand.stream.*" />
+          <option name="PATTERN" value="com.hand.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hand.stream" />
-      <option name="MAIN_CLASS_NAME" value="com.hand.stream.TestStream" />
-      <option name="METHOD_NAME" value="px" />
+      <option name="PACKAGE_NAME" value="com.hand.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hand.test.Reduce" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reduce.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hand.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hand.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hand.test.Reduce" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reduce.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hand.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hand.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hand.test.Reduce" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reduce.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hand.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hand.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hand.test.Reduce" />
+      <option name="METHOD_NAME" value="test7" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -432,19 +410,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestStream.px" />
-      <item itemvalue="JUnit.StreamApi.test" />
-      <item itemvalue="JUnit.StreamApi" />
-      <item itemvalue="JUnit.StreamApi.test2" />
-      <item itemvalue="JUnit.StreamApi.test3" />
+      <item itemvalue="JUnit.Reduce.test3" />
+      <item itemvalue="JUnit.Reduce.test4" />
+      <item itemvalue="JUnit.Reduce.test5" />
+      <item itemvalue="JUnit.Reduce.test6" />
+      <item itemvalue="JUnit.Reduce.test7" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StreamApi.test3" />
-        <item itemvalue="JUnit.StreamApi.test2" />
-        <item itemvalue="JUnit.StreamApi" />
-        <item itemvalue="JUnit.StreamApi.test" />
-        <item itemvalue="JUnit.TestStream.px" />
+        <item itemvalue="JUnit.Reduce.test7" />
+        <item itemvalue="JUnit.Reduce.test6" />
+        <item itemvalue="JUnit.Reduce.test5" />
+        <item itemvalue="JUnit.Reduce.test4" />
+        <item itemvalue="JUnit.Reduce.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -470,44 +448,46 @@
       <workItem from="1537431742999" duration="8586000" />
       <workItem from="1537494404050" duration="1223000" />
       <workItem from="1537928707854" duration="185000" />
-      <workItem from="1537928952223" duration="4297000" />
+      <workItem from="1537928952223" duration="10457000" />
+      <workItem from="1537970677657" duration="3021000" />
+      <workItem from="1538010219238" duration="1976000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamApi_test2 - 2018.09.26 at 11h 28m 22s.xml">
-      <configuration name="StreamApi.test2" configurationId="JUnit" />
+    <history-entry file="Reduce_test2 - 2018.09.26 at 22h 33m 16s.xml">
+      <configuration name="Reduce.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamApi_test2 - 2018.09.26 at 11h 29m 27s.xml">
-      <configuration name="StreamApi.test2" configurationId="JUnit" />
+    <history-entry file="Reduce_test2 - 2018.09.26 at 22h 37m 38s.xml">
+      <configuration name="Reduce.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamApi_test2 - 2018.09.26 at 11h 29m 30s.xml">
-      <configuration name="StreamApi.test2" configurationId="JUnit" />
+    <history-entry file="Reduce_test2 - 2018.09.26 at 22h 41m 28s.xml">
+      <configuration name="Reduce.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamApi_test2 - 2018.09.26 at 11h 29m 33s.xml">
-      <configuration name="StreamApi.test2" configurationId="JUnit" />
+    <history-entry file="Reduce_test2 - 2018.09.26 at 22h 42m 54s.xml">
+      <configuration name="Reduce.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamApi_test2 - 2018.09.26 at 11h 29m 37s.xml">
-      <configuration name="StreamApi.test2" configurationId="JUnit" />
+    <history-entry file="Reduce_test3 - 2018.09.26 at 22h 53m 27s.xml">
+      <configuration name="Reduce.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamApi_test2 - 2018.09.26 at 11h 54m 00s.xml">
-      <configuration name="StreamApi.test2" configurationId="JUnit" />
+    <history-entry file="Reduce_test4 - 2018.09.27 at 09h 10m 08s.xml">
+      <configuration name="Reduce.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamApi_test2 - 2018.09.26 at 11h 54m 17s.xml">
-      <configuration name="StreamApi.test2" configurationId="JUnit" />
+    <history-entry file="Reduce_test4 - 2018.09.27 at 09h 19m 53s.xml">
+      <configuration name="Reduce.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamApi_test2 - 2018.09.26 at 11h 54m 31s.xml">
-      <configuration name="StreamApi.test2" configurationId="JUnit" />
+    <history-entry file="Reduce_test4 - 2018.09.27 at 09h 20m 31s.xml">
+      <configuration name="Reduce.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamApi_test2 - 2018.09.26 at 11h 54m 34s.xml">
-      <configuration name="StreamApi.test2" configurationId="JUnit" />
+    <history-entry file="Reduce_test5 - 2018.09.27 at 09h 26m 11s.xml">
+      <configuration name="Reduce.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamApi_test3 - 2018.09.26 at 11h 58m 34s.xml">
-      <configuration name="StreamApi.test3" configurationId="JUnit" />
+    <history-entry file="Reduce_test6 - 2018.09.27 at 09h 35m 01s.xml">
+      <configuration name="Reduce.test6" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47031000" />
+    <option name="totallyTimeSpent" value="58188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
@@ -524,7 +504,7 @@
       <window_info id="Nl-Palette" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.29098967" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.08714919" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,7 +513,7 @@
       <window_info anchor="bottom" id="JRebel remote servers log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3295583" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295583" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" weight="0.022156574" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" weight="0.37518463" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -548,7 +528,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.847973" visible="true" weight="0.29594594" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.847973" visible="true" weight="0.29594594" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -559,8 +539,8 @@
       <window_info id="Nl-Palette" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.26735598" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785638" visible="true" weight="0.338257" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -568,7 +548,7 @@
       <window_info anchor="bottom" id="JRebel remote servers log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3295583" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295583" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" weight="0.022156574" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" weight="0.37518463" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -697,24 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hand/test/LambdaInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="65" column="42" selection-start-line="62" selection-start-column="15" selection-end-line="65" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hand/test/NewLambda.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -732,10 +698,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Java/jdk/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="606" column="6" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hand/test/LambdaInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="66" column="10" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hand/test/StreamApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="-950">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1489" column="42" selection-start-line="1489" selection-start-column="42" selection-end-line="1489" selection-end-column="42" />
+          <folding>
+            <element signature="e#18157#18158#0" expanded="true" />
+            <element signature="e#18222#18223#0" expanded="true" />
+            <element signature="e#33990#33991#0" expanded="true" />
+            <element signature="e#34045#34046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hand/test/Reduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
