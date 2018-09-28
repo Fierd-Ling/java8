@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a9b63e5-6ab3-4a39-adc0-95db1d3016f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hand/time/NewTimeApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hand/time/TemporalAdjuster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hand/time/NewTimeApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hand/time/NewTimeApi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,24 +33,24 @@
         <counts>
           <entry key="MF" value="1" />
           <entry key="class" value="2" />
-          <entry key="java" value="59" />
+          <entry key="java" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="59" />
+          <entry key="JAVA" value="60" />
           <entry key="Manifest" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7425" />
+          <entry key="java" value="7589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7425" />
+          <entry key="JAVA" value="7589" />
         </counts>
       </usages-collector>
     </session>
@@ -60,22 +61,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hand/time/NewTimeApi.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hand/time/TemporalAdjuster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk/src.zip!/java/time/LocalDateTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="244" column="53" lean-forward="true" selection-start-line="244" selection-start-column="53" selection-end-line="244" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -126,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/com/hand/staticInterface/SonClass2.java" />
         <option value="$PROJECT_DIR$/src/com/hand/staticInterface/TestInterface.java" />
         <option value="$PROJECT_DIR$/src/com/hand/time/NewTimeApi.java" />
+        <option value="$PROJECT_DIR$/src/com/hand/time/TemporalAdjuster.java" />
       </list>
     </option>
   </component>
@@ -165,6 +158,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hand" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hand" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -175,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538122344743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538125583708" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -200,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NewTimeApi.test3">
+  <component name="RunManager" selected="JUnit.TemporalAdjuster.test">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -330,17 +330,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOptional.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TemporalAdjuster.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hand.test.*" />
+          <option name="PATTERN" value="com.hand.time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hand.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hand.test.TestOptional" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.hand.time" />
+      <option name="MAIN_CLASS_NAME" value="com.hand.time.TemporalAdjuster" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -408,19 +408,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestOptional.test2" />
       <item itemvalue="Application.TestInterface" />
       <item itemvalue="JUnit.NewTimeApi.test" />
       <item itemvalue="JUnit.NewTimeApi.test1" />
       <item itemvalue="JUnit.NewTimeApi.test3" />
+      <item itemvalue="JUnit.TemporalAdjuster.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TemporalAdjuster.test" />
         <item itemvalue="JUnit.NewTimeApi.test3" />
         <item itemvalue="JUnit.NewTimeApi.test1" />
         <item itemvalue="JUnit.NewTimeApi.test" />
         <item itemvalue="Application.TestInterface" />
-        <item itemvalue="JUnit.TestOptional.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -449,26 +449,11 @@
       <workItem from="1537928952223" duration="10457000" />
       <workItem from="1537970677657" duration="3021000" />
       <workItem from="1538010219238" duration="11817000" />
-      <workItem from="1538097272520" duration="5571000" />
+      <workItem from="1538097272520" duration="6602000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewTimeApi_test - 2018.09.28 at 15h 43m 35s.xml">
-      <configuration name="NewTimeApi.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewTimeApi_test - 2018.09.28 at 15h 46m 50s.xml">
-      <configuration name="NewTimeApi.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewTimeApi_test - 2018.09.28 at 15h 47m 41s.xml">
-      <configuration name="NewTimeApi.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewTimeApi_test1 - 2018.09.28 at 15h 50m 43s.xml">
-      <configuration name="NewTimeApi.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewTimeApi_test1 - 2018.09.28 at 15h 58m 30s.xml">
-      <configuration name="NewTimeApi.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NewTimeApi_test1 - 2018.09.28 at 15h 59m 30s.xml">
       <configuration name="NewTimeApi.test1" configurationId="JUnit" />
     </history-entry>
@@ -484,9 +469,24 @@
     <history-entry file="NewTimeApi_test3 - 2018.09.28 at 16h 09m 56s.xml">
       <configuration name="NewTimeApi.test3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NewTimeApi_test3 - 2018.09.28 at 16h 11m 47s.xml">
+      <configuration name="NewTimeApi.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTimeApi_test3 - 2018.09.28 at 16h 12m 06s.xml">
+      <configuration name="NewTimeApi.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewTimeApi_test3 - 2018.09.28 at 16h 12m 23s.xml">
+      <configuration name="NewTimeApi.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TemporalAdjuster_test - 2018.09.28 at 17h 02m 04s.xml">
+      <configuration name="TemporalAdjuster.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TemporalAdjuster_test - 2018.09.28 at 17h 02m 19s.xml">
+      <configuration name="TemporalAdjuster.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73600000" />
+    <option name="totallyTimeSpent" value="74631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,7 +501,7 @@
     <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77567565" weight="0.29594594" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77567565" visible="true" weight="0.29594594" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -521,7 +521,7 @@
       <window_info anchor="bottom" id="JRebel remote servers log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.38552436" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295583" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" weight="0.45347118" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785638" weight="0.0" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -878,8 +878,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hand/time/NewTimeApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+        <state relative-caret-position="377">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hand/time/TemporalAdjuster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
