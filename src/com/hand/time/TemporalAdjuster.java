@@ -3,7 +3,6 @@ package com.hand.time;
 import org.junit.Test;
 
 import java.time.DayOfWeek;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.temporal.TemporalAdjusters;
 

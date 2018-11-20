@@ -46,8 +46,9 @@ public class LambdaInterface {
         list.forEach(System.out::println);
     }
 
-    // predict 判断型接口
+
     public List<Student> predict(List<Student>list, Predicate<Student> predicate){
+        // predict 判断型接口
         List<Student> studentList = new ArrayList<>();
         for (Student stunde:list) {
             if(predicate.test(stunde)){
